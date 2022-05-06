@@ -34,9 +34,7 @@ public class Estudiante {
         this.unaAsignatura= unaAsignatura;
     }
 
-    public Estudiante() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+
     public boolean pasaAño(){
         var retorno=false;
         if(this.calificacion<7){
